@@ -15,10 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mini-claude-py = "mini_claude.__main__:main"
+mini-claude-py = "src.__main__:main"
 
 [tool.setuptools.packages.find]
-include = ["mini_claude*"]
-
-[tool.setuptools.package-data]
-mini_claude = ["system_prompt.md"]
+include = ["src*"]

@@ -24,13 +24,14 @@ From the project root:
 
 ```bash
 pip install anthropic openai rich
-python -m src
+pip install -e .
+mini-claude-py
 ```
 
 You can also pass a one-shot prompt:
 
 ```bash
-python -m src "explain this repository"
+mini-claude-py "explain this repository"
 ```
 
 ## Project layout
@@ -41,4 +42,4 @@ python -m src "explain this repository"
 
 ## Notes
 
-The repository is intentionally code-only now. If you want the packaging metadata updated so `pip install -e .` and a console script work cleanly, that can be fixed separately.
+The repository is intentionally code-only now.
