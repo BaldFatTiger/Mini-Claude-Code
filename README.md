@@ -2,7 +2,7 @@
 
 Python-only version of a minimal coding agent inspired by Claude Code.
 
-This repository keeps the core agent implementation and removes the tutorial/site material from the original project. The code lives in [src/](src), with the CLI entry point in [src/__main__.py](src/__main__.py).
+The code lives in [src/](src), with the CLI entry point in [src/__main__.py](src/__main__.py).
 
 ## What is included
 
