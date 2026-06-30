@@ -2,7 +2,7 @@
 
 Python-only version of a minimal coding agent inspired by Claude Code.
 
-The code lives in [src/](src), with the CLI entry point in [src/__main__.py](src/__main__.py).
+The code lives in [mini_claude/](mini_claude), with the CLI entry point in [mini_claude/__main__.py](mini_claude/__main__.py).
 
 ## What is included
 
@@ -38,7 +38,7 @@ mini-claude-py "explain this repository"
 
 - [pyproject.toml](pyproject.toml) - Python project metadata and dependencies
 - [LICENSE](LICENSE) - MIT license
-- [src/](src) - Python source code
+- [mini_claude/](mini_claude) - Python source code
 
 ## Notes
 
